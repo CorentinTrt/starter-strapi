@@ -7,14 +7,18 @@
 
 ### Develop
 
-You can start your application with autoReload enable by runnning:
+1. Get your `.env` file and set the `NODE_ENV` variable to `development`
+2. Generate the `API_KEYS`, `API_TOKEN_SALT`, `ADMIN_JWT_TOKEN` and `JWT_SECRET` variables according to Strapi reco
+3. Start your application with autoReload enable by runnning:
 ```sh
 $ make docker-dev
 ```
 
 ### Deploy
 
-Once you put your Strapi application on the hosting server, you can run it by doing:
+1. Get your `.env` file and set `NODE_ENV` variable to `production`
+2. Use environment variables generate while developing
+3. Once you put your Strapi application on the hosting server, you can run it by doing:
 ```sh
 $ make docker-prod
 ```
