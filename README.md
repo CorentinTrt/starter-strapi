@@ -1,4 +1,4 @@
-# Starter Strapi
+# Starter Strapi (v4.6.1)
 
 - This starter is based on docker to develop, deploy and serve a Strapi application
 - I think the best practice here is to duplicate this template and then directly deploy it on your host server and work from there
