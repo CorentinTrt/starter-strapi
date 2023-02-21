@@ -25,3 +25,5 @@ $ make docker-prod
 ## Warnings
 
 - Please make sure to backup your database, docker's volumes can be unstable and result to a loss of data
+- Please make sure to delete your `node_modules` folder before any run
+- You cannot keep your data between `development` and `production` environments
